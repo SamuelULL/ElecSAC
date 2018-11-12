@@ -1,112 +1,97 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="plantillaElecSAC.xsl" ?>
-<Producto>
+<?xml-stylesheet type="text/xsl" href="plantillaElecSAC.xsl" ?> 
 
-
+<productos>
+	<titulo>Productos de la tienda</titulo>
 	<ordenador>
 		<portatiles>
-			<marca nombre="Asus">
-				<modelo numero="59966">
-
-					<!--<caracteristica memoria="8GB"/>
-					<caracteristica pantalla="16 pulgadas"/>
-					<caracteristica CPU="3.2GHz"/>  frecuencia del procesador -->
-					<caracteristicas>
+				<marca>
+					<nombre>Asus</nombre>
+					<modelo>
+					    <numero>5966</numero>
 						<precio>890€</precio>
 						<memoria>8GB</memoria>
 						<pantalla>16 pulgadas</pantalla>
 						<cpu>3.2GHz</cpu>
-					</caracteristicas>
-				</modelo>
-				<modelo numero="54655">
-				<!--<precio>650€</precio>
-					<caracteristica memoria="4GB"/>
-					<caracteristica pantalla="16 pulgadas"/>
-					<caracteristica CPU="2.5GHz"/>   frecuencia del procesador -->
-					<caracteristicas>
-						<precio>890€</precio>
-						<memoria>8GB</memoria>
+					</modelo>
+					<modelo>
+						<numero>54655</numero>
+						<precio>650€</precio>
+						<precio>710€</precio>
+						<memoria>4GB</memoria>
 						<pantalla>16 pulgadas</pantalla>
-						<cpu>3.2GHz</cpu>
-					</caracteristicas>
-				</modelo>
-			</marca>
-			<marca nombre="HP">
-				<modelo numero="76890">
-				<!--<precio>449€</precio>
-					<caracteristica memoria="4GB"/>
-					<caracteristica pantalla="15 pulgadas"/>
-					<caracteristica CPU="2.1GHz"/> -->
-					<caracteristicas>
-						<precio>890€</precio>
-						<memoria>8GB</memoria>
+						<cpu>2.5GHz</cpu>
+					</modelo>
+				</marca>
+				<marca>
+					<nombre>HP</nombre>
+					<modelo>
+						<numero>7689</numero>
+						<precio>449€</precio>
+						<memoria>4GB</memoria>
+						<pantalla>15 pulgadas</pantalla>
+						<cpu>2.1GHz</cpu>
+					</modelo>
+					<modelo>
+						<numero>54655</numero>
+						<precio>650€</precio>
+						<precio>710€</precio>
+						<memoria>4GB</memoria>
 						<pantalla>16 pulgadas</pantalla>
-						<cpu>3.2GHz</cpu>
-					</caracteristicas>
-				</modelo>
-			</marca>
-
-
+						<cpu>2.5GHz</cpu>
+					</modelo>
+				</marca>
 		</portatiles>
 
-		<sobremesa>
+		<!--<sobremesa>
 			<marca nombre="Acer">
 				<modelo numero="23654">
 				<precio>1050€</precio>
-					<caracteristica memoria="16GB"/>	 <!-- Ram-->
-					<caracteristica CPU="4.0GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica memoria="16GB"/>	 
+					<caracteristica CPU="4.0GHz"/>  
 					<caracteristica Almacenamiento="2TB"/>
 				</modelo>
 				<modelo numero="29065">
 				<precio>890€</precio>
-					<caracteristica memoria="12GB"/>	 <!-- Ram-->
+					<caracteristica memoria="12GB"/>	 
 					<caracteristica Almacenamiento="1TB"/>
-					<caracteristica CPU="3.7GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica CPU="3.7GHz"/>  
 				</modelo>
 			</marca>
 			<marca nombre="Lenovo">
 				<modelo numero="19047">
 				<precio>290€</precio>
-					<caracteristica memoria="4GB"/>	 <!-- Ram-->
+					<caracteristica memoria="4GB"/>	 
 					<caracteristica almacenamiento="500GB"/>
-					<caracteristica CPU="2.0GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica CPU="2.0GHz"/>  
 				</modelo>
 			</marca>
 
-		</sobremesa>
+		</sobremesa> -->
 
 	</ordenador>
 
-	<!--<servidor>
-		<marca nombre="Dell">
-			<precio></precio>
-			<caracteristica memoria=""/>
-			<caracteristica pantalla=""/>
-			<caracteristica CPU=""/>   frecuencia del procesador
-		</marca>
-	</servidor>-->
-
-	<moviles>
+	<!--<moviles>
 		<marca nombre="Huawei">
 				<modelo nombre="P9 Lite">
 				<precio>152€</precio>
-					<caracteristica memoria="3GB"/>	 <!-- Ram-->
+					<caracteristica memoria="3GB"/>	 
 					<caracteristica pantalla="5.2 pulgadas"/>
-					<caracteristica CPU="2GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica CPU="2GHz"/>  
 				</modelo>
 				<modelo nombre="P10">
 				<precio>255€</precio>
-					<caracteristica memoria="4GB"/>	 <!-- Ram-->
+					<caracteristica memoria="4GB"/>	 
 					<caracteristica pantalla="5.5 pulgadas"/>
-					<caracteristica CPU="2.8GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica CPU="2.8GHz"/>  
 				</modelo>
 			</marca>
 			<marca nombre="Samsung">
 				<modelo nombre="Galaxy S9">
 				<precio>625€</precio>
-					<caracteristica memoria="8GB"/>	 <!-- Ram-->
+					<caracteristica memoria="8GB"/>	 
 					<caracteristica pantalla="5.8 pulgadas"/>
-					<caracteristica CPU="3.4GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica CPU="3.4GHz"/>  
 				</modelo>
 			</marca>
 
@@ -115,7 +100,7 @@
 	<smartwatch>
 			<marca>
 				<precio></precio>
-					<caracteristica memoria=""/>   <!-- almacenamiento -->
+					<caracteristica memoria=""/>   
 					<caracteristica bateria=""/>
 
 			</marca>
@@ -129,7 +114,7 @@
 			<marca>Sony</marca>
 
 			<precio>429€</precio>
-				<caracteristica memoria="1TB"/>   <!-- almacenamiento -->
+				<caracteristica memoria="1TB"/>   
 				<caracteristica resolucion="4K"/>
 
 
@@ -141,7 +126,7 @@
 		<marca>Microsoft</marca>
 
 			<precio>400€</precio>
-				<caracteristica memoria="1TB"/>   <!-- almacenamiento -->
+				<caracteristica memoria="1TB"/>   
 				<caracteristica resolucion="4K"/>
 
 
@@ -151,7 +136,7 @@
 		<marca>Nintendo</marca>
 
 			<precio>329€</precio>
-				<caracteristica memoria="500GB"/>   <!-- almacenamiento -->
+				<caracteristica memoria="500GB"/>   
 				<caracteristica resolucion="HD"/>
 
 
@@ -161,7 +146,7 @@
 
 
 
-	</videoconsola>
+	</videoconsola> -->
 
 
-</Producto>
+</productos>
