@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="plantillaElecSAC.xsl" ?>
+<Producto>
+
+
+	<ordenador>
+		<portatiles>
+			<marca nombre="Asus">
+				<modelo numero="59966">
+
+					<!--<caracteristica memoria="8GB"/>
+					<caracteristica pantalla="16 pulgadas"/>
+					<caracteristica CPU="3.2GHz"/>  frecuencia del procesador -->
+					<caracteristicas>
+						<precio>890€</precio>
+						<memoria>8GB</memoria>
+						<pantalla>16 pulgadas</pantalla>
+						<cpu>3.2GHz</cpu>
+					</caracteristicas>
+				</modelo>
+				<modelo numero="54655">
+				<!--<precio>650€</precio>
+					<caracteristica memoria="4GB"/>
+					<caracteristica pantalla="16 pulgadas"/>
+					<caracteristica CPU="2.5GHz"/>   frecuencia del procesador -->
+					<caracteristicas>
+						<precio>890€</precio>
+						<memoria>8GB</memoria>
+						<pantalla>16 pulgadas</pantalla>
+						<cpu>3.2GHz</cpu>
+					</caracteristicas>
+				</modelo>
+			</marca>
+			<marca nombre="HP">
+				<modelo numero="76890">
+				<!--<precio>449€</precio>
+					<caracteristica memoria="4GB"/>
+					<caracteristica pantalla="15 pulgadas"/>
+					<caracteristica CPU="2.1GHz"/> -->
+					<caracteristicas>
+						<precio>890€</precio>
+						<memoria>8GB</memoria>
+						<pantalla>16 pulgadas</pantalla>
+						<cpu>3.2GHz</cpu>
+					</caracteristicas>
+				</modelo>
+			</marca>
+
+
+		</portatiles>
+
+		<sobremesa>
+			<marca nombre="Acer">
+				<modelo numero="23654">
+				<precio>1050€</precio>
+					<caracteristica memoria="16GB"/>	 <!-- Ram-->
+					<caracteristica CPU="4.0GHz"/>  <!-- frecuencia del procesador -->
+					<caracteristica Almacenamiento="2TB"/>
+				</modelo>
+				<modelo numero="29065">
+				<precio>890€</precio>
+					<caracteristica memoria="12GB"/>	 <!-- Ram-->
+					<caracteristica Almacenamiento="1TB"/>
+					<caracteristica CPU="3.7GHz"/>  <!-- frecuencia del procesador -->
+				</modelo>
+			</marca>
+			<marca nombre="Lenovo">
+				<modelo numero="19047">
+				<precio>290€</precio>
+					<caracteristica memoria="4GB"/>	 <!-- Ram-->
+					<caracteristica almacenamiento="500GB"/>
+					<caracteristica CPU="2.0GHz"/>  <!-- frecuencia del procesador -->
+				</modelo>
+			</marca>
+
+		</sobremesa>
+
+	</ordenador>
+
+	<!--<servidor>
+		<marca nombre="Dell">
+			<precio></precio>
+			<caracteristica memoria=""/>
+			<caracteristica pantalla=""/>
+			<caracteristica CPU=""/>   frecuencia del procesador
+		</marca>
+	</servidor>-->
+
+	<moviles>
+		<marca nombre="Huawei">
+				<modelo nombre="P9 Lite">
+				<precio>152€</precio>
+					<caracteristica memoria="3GB"/>	 <!-- Ram-->
+					<caracteristica pantalla="5.2 pulgadas"/>
+					<caracteristica CPU="2GHz"/>  <!-- frecuencia del procesador -->
+				</modelo>
+				<modelo nombre="P10">
+				<precio>255€</precio>
+					<caracteristica memoria="4GB"/>	 <!-- Ram-->
+					<caracteristica pantalla="5.5 pulgadas"/>
+					<caracteristica CPU="2.8GHz"/>  <!-- frecuencia del procesador -->
+				</modelo>
+			</marca>
+			<marca nombre="Samsung">
+				<modelo nombre="Galaxy S9">
+				<precio>625€</precio>
+					<caracteristica memoria="8GB"/>	 <!-- Ram-->
+					<caracteristica pantalla="5.8 pulgadas"/>
+					<caracteristica CPU="3.4GHz"/>  <!-- frecuencia del procesador -->
+				</modelo>
+			</marca>
+
+	</moviles>
+
+	<smartwatch>
+			<marca>
+				<precio></precio>
+					<caracteristica memoria=""/>   <!-- almacenamiento -->
+					<caracteristica bateria=""/>
+
+			</marca>
+
+	</smartwatch>
+
+	<videoconsola>
+
+
+			<modelo nombre="PlayStation 4 PRO">
+			<marca>Sony</marca>
+
+			<precio>429€</precio>
+				<caracteristica memoria="1TB"/>   <!-- almacenamiento -->
+				<caracteristica resolucion="4K"/>
+
+
+		</modelo>
+
+
+
+		<modelo nombre="XBOX ONE X">
+		<marca>Microsoft</marca>
+
+			<precio>400€</precio>
+				<caracteristica memoria="1TB"/>   <!-- almacenamiento -->
+				<caracteristica resolucion="4K"/>
+
+
+		</modelo>
+
+	<modelo nombre="Nintendo Switch">
+		<marca>Nintendo</marca>
+
+			<precio>329€</precio>
+				<caracteristica memoria="500GB"/>   <!-- almacenamiento -->
+				<caracteristica resolucion="HD"/>
+
+
+		</modelo>
+
+
+
+
+
+	</videoconsola>
+
+
+</Producto>
