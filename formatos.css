@@ -1,0 +1,85 @@
+/**************************************************
+* LOS BLOQUES COMENTADOS SON ESTILOS DESACTIVADOS *
+* PERO PODRÍAMOS PONER EN UN FUTURO               *
+***************************************************/
+
+
+
+td{
+  margin: auto;
+}
+
+#subtitulo{
+  font: bold 1.7em Verdana;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+  color: black;
+}
+
+
+section{
+  width: 91%;
+  border-top: 1px dashed #d9d9d9; /*Línea de puntos a modo de borde*/
+  margin: 15px auto;
+}
+
+article{
+  float: left;
+  width: 40%;
+}
+
+
+.tipo{
+  text-align: center;
+}
+
+/*aside{
+  float: right;
+}*/
+
+
+
+
+#titulo{
+  text-align: center;
+  margin: 15px auto
+  background-color:black;
+  color: red;
+  padding: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  font: bold 66px Verdana, Geneva, sans-serif;
+  text-shadow: black 5px 5px 5px;
+  /*-moz-transition:-moz-transform 0.4s ease 0s;*/
+}
+
+/*#titulo:hover{
+  -moz-transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+  -webkit-transform:rotate(2deg);
+}*/
+
+/*#portatil{
+  
+  position:absolute;
+  right:60%;
+  left:0px;
+  margin-left: 20px;
+  
+}
+
+#asus {
+  background-color: red;
+}
+
+#hp {
+  
+  background-color: red;
+   /*float: right;
+}
+
+#sobremesa{
+  float: right;
+  margin-right: 20px;
+}*/
